@@ -24,10 +24,11 @@ public class Main {
 					heap.add(validInt("Enter a value: "));
 					break;
 				case 5:
-					if(heap.empty())
-						out("Heap empty. You can't remove anything.");
-					else
-						out(heap.remove() + " was removed.");
+					out(heap.empty() ? "Heap is empty. You can't remove anything." : heap.remove() + " was removed.");
+					// if(heap.empty())
+					// 	out("Heap empty. You can't remove anything.");
+					// else
+					// 	out(heap.remove() + " was removed.");
 					break;
 				case 6:
 					heap.clear();
