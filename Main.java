@@ -47,6 +47,7 @@ public class Main {
 			s.next();
 		}
 		r = s.nextInt();
+		s.nextLine();
 		return r;
 	}
 	public static void out(String s) {
